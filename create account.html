@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <span>
+                    or use email for registeration
+                </span> 
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+    
+        <div class="form-container sign-in">
+            <form>
+                <h1>SIGN IN</h1>
+                <span>
+                    or use email or password
+                </span> 
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot Your Password</a>
+                <button type="button" onclick="event.preventDefault(); window.location.href='index.html';">Sign In</button>
+            </form>
+        </div>
+
+    <div class="toggle-container">
+        <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal detials </p>
+                <button class="hidden" id="login">Sign In</button>
+            </div>
+        <div class="toggle-panel toggle-right">
+                <h1>Hello Friends!</h1>
+                <p>Registeration with your personal detials </p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+    </div>
+    </div>
+    </div>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="im.png" alt="Cara" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Tamil nadu...xxXXXXX,YYYYYY</p>
+            <p><strong>Phone: </strong>+02 629002/(+91) 9344XXXX78</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="assets/pay/app.jpg" alt="">
+                <img src="assets/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="assets/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024, E-commerce Project</p>
+            <p>By Rubin sam</p>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
